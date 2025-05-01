@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Savindi Kumarage | Professional Portfolio</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', cursive, sans-serif;
+      background-color: #f7a6c1;
+      margin: 0;
+      padding: 0;
+      color: #1e191c;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-image: url('https://image.slidesdocs.com/responsive-images/background/growth-web-analytics-and-click-search-in-minimal-style-3d-rendered-seo-marketing-concept-on-soft-pink-pastel-powerpoint-background_044848ab5f__960_540.jpg');
+      background-size: cover;
+      background-position: center;
+      color: rgb(126, 68, 111);
+      text-align: center;
+      padding: 4rem 1rem;
+      border-bottom: 5px dotted #ffa07a;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      margin-top: 1rem;
+    }
+
+    nav {
+      background-color: #ffe4e1;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #17020c;
+      font-weight: bold;
+      transition: transform 0.3s;
+    }
+
+    nav a:hover {
+      transform: scale(1.1);
+    }
+
+    section {
+      padding: 2rem;
+      animation: slideUp 1s ease-out;
+    }
+
+    h2 {
+      color: #0f0208;
+    }
+
+    .card {
+      background-color: #f594d2;
+      border: 2px dashed #d9ccce;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card:active {
+      transform: scale(0.95);
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ffb6c1;
+      padding: 1rem;
+      color: white;
+    }
+
+    a {
+      color: #e47bb3;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    form {
+      margin-top: 2rem;
+      background: #fff0f5;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-family: inherit;
+    }
+
+    button {
+      background-color: #f08080;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+    }
+
+    button:hover {
+      background-color: #e06377;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌸 Savindi Kumarage</h1>
+    <p>Aspiring Data Analyst | Creative Coder | Software Engineering Student</p>
+    <img class="profile-photo" src="C:\Users\MSI\Pictures\WhatsApp Image 2025-04-30 at 09.55.55_d4f8d02f.jpg" alt="Savindi Kumarage" />
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am an enthusiastic and self-motivated Software Engineering undergraduate at NIBM, currently specializing in Robotic Application Development. I enjoy working on projects involving data, UI/UX, and creative thinking using tools like Power BI, SQL, and Python.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Professional & Soft Skills</h2>
+
+    <div class="card">
+      <h3>💻 Technical Skills</h3>
+      <ul>
+        <li>Database: MySQL, PostgreSQL, MongoDB</li>
+        <li>Programming: Python, Java, C#</li>
+        <li>Web: HTML, CSS, JavaScript</li>
+        <li>Tools: Power BI, Git, Figma, Canva</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>💡 Soft Skills</h3>
+      <ul>
+        <li>Creative thinking</li>
+        <li>Problem solving</li>
+        <li>Teamwork</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>🏥 OPD Management System</h3>
+      <p>Efficient hospital record system.</p>
+    </div>
+
+    <div class="card" onclick="window.open('https://dsavie.github.io/data-dashboard-project/', '_blank')">
+      <h3>📊 Power BI Dashboard</h3>
+      <p>Customer trends & business insights.</p>
+      <p>🔗 <a href="https://github.com/dsavie/data-dashboard-project" target="_blank">GitHub</a></p>
+    </div>
+
+    <div class="card" onclick="window.open('https://dsavie.github.io/machine-learning-crop-prediction/', '_blank')">
+      <h3>🤖 Crop Yield Prediction</h3>
+      <p>ML model to suggest optimal crops.</p>
+      <p>🔗 <a href="https://github.com/dsavie/machine-learning-crop-prediction" target="_blank">GitHub</a></p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>📧 <a href="mailto:dhanujasavindi@gmail.com">dhanujasavindi@gmail.com</a></p>
+    <p>📞 <a href="tel:+94711850927">+94 71 185 0927</a></p>
+    <p>🐙 <a href="https://github.com/dsavie" target="_blank">GitHub</a></p>
+    <p>💼 <a href="https://linkedin.com/in/savindi-kumarage-72320125a" target="_blank">LinkedIn</a></p>
+    <p>📍 Giriulla, Sri Lanka</p>
+
+    <form id="messageForm">
+      <h3>💬 Send Me a Message</h3>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+      <p id="formStatus"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>🌸 Designed with love by Savindi | © 2025</p>
+  </footer>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("YOUR_USER_ID"); // Replace with your actual EmailJS user ID
+    })();
+
+    document.getElementById('messageForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+        .then(function() {
+          document.getElementById('formStatus').innerText = "✅ Message sent!";
+          document.getElementById('messageForm').reset();
+        }, function(error) {
+          document.getElementById('formStatus').innerText = "❌ Failed: " + error.text;
+        });
+    });
+  </script>
+</body>
+</html>
