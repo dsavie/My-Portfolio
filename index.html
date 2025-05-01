@@ -40,6 +40,7 @@
       border-radius: 50%;
       border: 5px solid #fff;
       margin-top: 1rem;
+      object-fit: cover;
     }
 
     nav {
@@ -103,34 +104,6 @@
       padding-left: 20px;
     }
 
-    form {
-      margin-top: 2rem;
-      background: #fff0f5;
-      padding: 1.5rem;
-      border-radius: 10px;
-    }
-
-    input, textarea, button {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      font-family: inherit;
-    }
-
-    button {
-      background-color: #f08080;
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-      border: none;
-    }
-
-    button:hover {
-      background-color: #e06377;
-    }
-
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
@@ -166,7 +139,7 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I am an enthusiastic and self-motivated Software Engineering undergraduate at NIBM, currently specializing in Robotic Application Development. I enjoy working on projects involving data, UI/UX, and creative thinking using tools like Power BI, SQL, and Python.</p>
+    <p>I am an enthusiastic and self-motivated Software Engineering undergraduate at NIBM, currently specializing in Robotic Application Development. With strong foundations in data analysis, UI/UX design, and database systems, I am passionate about turning complex data into clear insights and creative digital solutions. I have hands-on experience in tools like Power BI, SQL, and Python, and enjoy working on innovative projects, including Arduino-based systems and IoT applications.</p>
   </section>
 
   <section id="skills">
@@ -176,18 +149,62 @@
       <h3>💻 Technical Skills</h3>
       <ul>
         <li>Database: MySQL, PostgreSQL, MongoDB</li>
-        <li>Programming: Python, Java, C#</li>
-        <li>Web: HTML, CSS, JavaScript</li>
-        <li>Tools: Power BI, Git, Figma, Canva</li>
+        <li>Programming: Python, Java (Spring Boot), C#</li>
+        <li>Web: HTML (Bootstrap), CSS, JavaScript</li>
+        <li>Tools: Power BI, Git, Figma, Canva, WordPress</li>
+        <li>Methodologies: Agile, Scrum</li>
       </ul>
     </div>
 
     <div class="card">
       <h3>💡 Soft Skills</h3>
       <ul>
-        <li>Creative thinking</li>
+        <li>Innovative thinking</li>
         <li>Problem solving</li>
+        <li>Creative thinking</li>
         <li>Teamwork</li>
+        <li>Adaptability</li>
+        <li>Time management</li>
+        <li>Communication</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🌐 Languages</h3>
+      <ul>
+        <li>Fluent in English</li>
+        <li>Fluent in Sinhala</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🏅 Certifications</h3>
+      <ul>
+        <li>Higher National Diploma in Software Engineering</li>
+        <li>Diploma in Software Engineering</li>
+        <li>Diploma in IT</li>
+        <li>Certificate in English</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>💃 Extra-Curricular Activities</h3>
+      <ul>
+        <li>Arabic Gymnastics</li>
+        <li>Dancing</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>📊 Areas of Expertise as a Data Analyst</h3>
+      <p>As a Data Analyst, I specialize in the following areas:</p>
+      <ul>
+        <li>Data Cleaning and Preparation: Ensuring data is accurate and usable.</li>
+        <li>Data Visualization: Creating interactive dashboards and visual representations using tools like Power BI and Tableau.</li>
+        <li>Statistical Analysis: Using statistical methods to interpret data and make predictions.</li>
+        <li>Business Intelligence: Leveraging data insights to inform business decisions.</li>
+        <li>Machine Learning: Applying algorithms to analyze trends and patterns in data.</li>
+        <li>SQL & Database Management: Writing complex queries and optimizing databases for efficient data retrieval.</li>
       </ul>
     </div>
   </section>
@@ -196,62 +213,48 @@
     <h2>Projects</h2>
 
     <div class="card">
-      <h3>🏥 OPD Management System</h3>
-      <p>Efficient hospital record system.</p>
+      <h3>🏥 Hospital OPD Management System (2023)</h3>
+      <p>Designed a system to manage hospital outpatient department activities efficiently.</p>
     </div>
 
+    <div class="card">
+      <h3>🎮 Game Project (2023)</h3>
+      <p>Developed a simple interactive game using Java.</p>
+    </div>
+
+    <div class="card">
+      <h3>🏨 Hotel Management Web App (2023)</h3>
+      <p>Created a full-stack hotel booking and management system.</p>
+    </div>
+
+    <div class="card">
+      <h3>🌐 Portfolio for AnjanaDil (2023)</h3>
+      <p>Designed a clean personal portfolio website for a client.</p>
+    </div>
+
+    <!-- ✅ NEW PROJECT CARD -->
     <div class="card" onclick="window.open('https://dsavie.github.io/data-dashboard-project/', '_blank')">
-      <h3>📊 Power BI Dashboard</h3>
-      <p>Customer trends & business insights.</p>
-      <p>🔗 <a href="https://github.com/dsavie/data-dashboard-project" target="_blank">GitHub</a></p>
-    </div>
-
-    <div class="card" onclick="window.open('https://dsavie.github.io/machine-learning-crop-prediction/', '_blank')">
-      <h3>🤖 Crop Yield Prediction</h3>
-      <p>ML model to suggest optimal crops.</p>
-      <p>🔗 <a href="https://github.com/dsavie/machine-learning-crop-prediction" target="_blank">GitHub</a></p>
+      <h3>📊 Power BI Data Dashboard (2024)</h3>
+      <p>This project visualizes customer sales trends using Power BI. It includes slicers, filters, and KPIs to enable business decision-making from PostgreSQL data.</p>
+      <p>
+        🔗 <a href="https://dsavie.github.io/data-dashboard-project/" target="_blank">View Project</a> |
+        📂 <a href="https://github.com/dsavie/data-dashboard-project" target="_blank">Source Code</a>
+      </p>
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>📧 <a href="mailto:dhanujasavindi@gmail.com">dhanujasavindi@gmail.com</a></p>
-    <p>📞 <a href="tel:+94711850927">+94 71 185 0927</a></p>
-    <p>🐙 <a href="https://github.com/dsavie" target="_blank">GitHub</a></p>
-    <p>💼 <a href="https://linkedin.com/in/savindi-kumarage-72320125a" target="_blank">LinkedIn</a></p>
-    <p>📍 Giriulla, Sri Lanka</p>
-
-    <form id="messageForm">
-      <h3>💬 Send Me a Message</h3>
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-      <p id="formStatus"></p>
-    </form>
+    <p>📧 Email: <a href="mailto:dhanujasavindi@gmail.com">dhanujasavindi@gmail.com</a></p>
+    <p>📞 Phone: +94 71 185 0927</p>
+    <p>🐙 GitHub: <a href="https://github.com/dsavie" target="_blank">github.com/dsavie</a></p>
+    <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/savindi-kumarage-72320125a/" target="_blank">linkedin.com/in/savindi-kumarage</a></p>
+    <p>📍 Address: Puskoladeniya, Maharagama, Giriulla, Sri Lanka</p>
   </section>
 
   <footer>
     <p>🌸 Designed with love by Savindi | © 2025</p>
   </footer>
 
-  <!-- EmailJS -->
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  <script>
-    (function(){
-      emailjs.init("YOUR_USER_ID"); // Replace with your actual EmailJS user ID
-    })();
-
-    document.getElementById('messageForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
-        .then(function() {
-          document.getElementById('formStatus').innerText = "✅ Message sent!";
-          document.getElementById('messageForm').reset();
-        }, function(error) {
-          document.getElementById('formStatus').innerText = "❌ Failed: " + error.text;
-        });
-    });
-  </script>
 </body>
 </html>
